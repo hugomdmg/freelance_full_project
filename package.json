@@ -2,6 +2,7 @@
     "scripts": {
         "start": "docker-compose up",
         "build": "docker-compose up --build",
-        "down": "docker-compose down"
+        "down": "docker-compose down",
+        "clear": "docker image prune -a"
     }
 }
